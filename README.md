@@ -18,7 +18,7 @@ This project focuses on classifying patients as diabetic or non-diabetic based o
 - **Size:** 77,000 rows and 10 columns  
 - **Type:** Primarily numeric with one categorical variable  
 
-### Features  
+#Features  
 - **Patient_ID:** Unique identifier (not used in analysis)  
 - **Age:** Age in years  
 - **Gender:** Male/Female (categorical)  
@@ -31,22 +31,22 @@ This project focuses on classifying patients as diabetic or non-diabetic based o
 - **Outcome:** Target variable (1 = Diabetic, 0 = Non-Diabetic)  
 
 
-## Methodology  
-### 1. Data Preprocessing  
+# Methodology  
+1. Data Preprocessing  
 - Removed irrelevant columns (`Patient_ID`)  
 - Encoded categorical features (e.g., `Gender`)  
 - Scaled numerical features for consistency  
 - Imputed missing values in BMI, Glucose, Blood Pressure, and Insulin  
 
-### 2. Feature Engineering  
+ 2. Feature Engineering  
 - Created interaction terms such as `BMI * Glucose_Level` and `Pregnancies / Age`  
 - Grouped continuous variables into bins (e.g., age groups)  
 
-### 3. Modeling  
+ 3. Modeling  
 - Applied **Random Forest Classifier**  
 - Addressed class imbalance using **SMOTE** for the training set  
 
-### 4. Evaluation Metrics  
+ 4. Evaluation Metrics  
 - Accuracy  
 - Precision  
 - Recall  
@@ -54,7 +54,7 @@ This project focuses on classifying patients as diabetic or non-diabetic based o
 - ROC-AUC Score  
 
 
-## Results  
+# Results  
 - **Accuracy:** 60.06%  
 - **Precision (Class 1):** 36%  
 - **Recall (Class 1):** 19%  
@@ -63,7 +63,7 @@ This project focuses on classifying patients as diabetic or non-diabetic based o
 
 
 
-## Insights  
+# Insights  
 **Strengths:**  
 - Model performs reliably for the majority class (Outcome = 0)  
 - Random Forest effectively captures non-linear feature interactions  
@@ -74,24 +74,24 @@ This project focuses on classifying patients as diabetic or non-diabetic based o
 
 
 
-## Limitations and Future Work  
+# Limitations and Future Work  
 - **Class Imbalance:** Explore advanced oversampling techniques or weighted loss functions  
 - **Feature Engineering:** Introduce domain-specific features to improve predictions  
 - **Model Selection:** Test Gradient Boosting, Logistic Regression, or Neural Networks with hyperparameter tuning  
 - **Binary Simplification:** Consider focusing on balanced binary classification for better recall  
 
 
-## Conclusion  
+# Conclusion  
 This project demonstrates the use of Random Forest for diabetes prediction, achieving 60.06% accuracy. While effective for non-diabetic cases, improvements are needed for diabetic patient prediction. Future work should emphasize handling class imbalance and enhancing feature engineering for better generalization.  
 
 
 
-## Tools and Technologies  
+# Tools and Technologies  
 - **Programming Language:** Python  
 - **Libraries:** pandas, matplotlib, seaborn, scikit-learn  
 
 
 
-## Contact  
+# Contact  
 - **LinkedIn:** [linkedin.com/in/anam-jafar6](https://www.linkedin.com/in/anam-jafar6/)  
 - **GitHub:** [github.com/anamjafar6](https://github.com/anamjafar6)  
