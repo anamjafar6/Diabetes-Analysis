@@ -1,19 +1,19 @@
-```
+```markdown
 # Diabetes Dataset Classification
 
-### Author  
+# Author  
 Anam Jafar  
 
-### Start Date  
+# Start Date  
 December 26, 2024  
 
 
-## Project Overview  
+# Project Overview  
 This project focuses on classifying patients as diabetic or non-diabetic based on health metrics using supervised learning. The dataset includes demographic, clinical, and lifestyle-related features. The objective was to preprocess the data, engineer meaningful features, and build a machine learning model to predict diabetes effectively.  
 
 
 
-## Dataset  
+# Dataset  
 - **Source:** Provided (raw CSV file)  
 - **Size:** 77,000 rows and 10 columns  
 - **Type:** Primarily numeric with one categorical variable  
